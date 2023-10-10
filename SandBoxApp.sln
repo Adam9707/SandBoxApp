@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxApp.API", "SandBoxApp.API\SandBoxApp.API.csproj", "{A636814E-54C8-47D9-9FF8-5C34E2880844}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74D78550-10BE-459C-B570-A847641CF998} = {74D78550-10BE-459C-B570-A847641CF998}
+		{B8E2E4D3-F717-4550-A3EF-8F61934E6E35} = {B8E2E4D3-F717-4550-A3EF-8F61934E6E35}
+		{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2} = {D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxApp.Domain", "SandBoxApp.Domain\SandBoxApp.Domain.csproj", "{B8E2E4D3-F717-4550-A3EF-8F61934E6E35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxApp.Application", "SandBoxApp.Application\SandBoxApp.Application.csproj", "{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxApp.Persistence", "SanBoxApp.Persistence\SandBoxApp.Persistence.csproj", "{74D78550-10BE-459C-B570-A847641CF998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A636814E-54C8-47D9-9FF8-5C34E2880844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636814E-54C8-47D9-9FF8-5C34E2880844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636814E-54C8-47D9-9FF8-5C34E2880844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636814E-54C8-47D9-9FF8-5C34E2880844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E2E4D3-F717-4550-A3EF-8F61934E6E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E2E4D3-F717-4550-A3EF-8F61934E6E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E2E4D3-F717-4550-A3EF-8F61934E6E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E2E4D3-F717-4550-A3EF-8F61934E6E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9012C6E-AFC7-4CF8-BE39-28CCB98FEFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D78550-10BE-459C-B570-A847641CF998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D78550-10BE-459C-B570-A847641CF998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D78550-10BE-459C-B570-A847641CF998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D78550-10BE-459C-B570-A847641CF998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37330DF5-6D6B-425D-9997-245C88F87F62}
+	EndGlobalSection
+EndGlobal
